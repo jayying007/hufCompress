@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A45F6C2E269F4ED9006B70F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A45F6C2D269F4ED9006B70F2 /* main.cpp */; };
+		A45F6C36269F4F67006B70F2 /* Compress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A45F6C34269F4F67006B70F2 /* Compress.cpp */; };
+		A45F6C39269F4F76006B70F2 /* Decompress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A45F6C37269F4F76006B70F2 /* Decompress.cpp */; };
+		A45F6C3C269F4FC2006B70F2 /* Huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A45F6C3A269F4FC2006B70F2 /* Huffman.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		A45F6C2A269F4ED9006B70F2 /* hufCompress */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hufCompress; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45F6C2D269F4ED9006B70F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A45F6C34269F4F67006B70F2 /* Compress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Compress.cpp; sourceTree = "<group>"; };
+		A45F6C35269F4F67006B70F2 /* Compress.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Compress.hpp; sourceTree = "<group>"; };
+		A45F6C37269F4F76006B70F2 /* Decompress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Decompress.cpp; sourceTree = "<group>"; };
+		A45F6C38269F4F76006B70F2 /* Decompress.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Decompress.hpp; sourceTree = "<group>"; };
+		A45F6C3A269F4FC2006B70F2 /* Huffman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Huffman.cpp; sourceTree = "<group>"; };
+		A45F6C3B269F4FC2006B70F2 /* Huffman.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Huffman.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				A45F6C2D269F4ED9006B70F2 /* main.cpp */,
+				A45F6C34269F4F67006B70F2 /* Compress.cpp */,
+				A45F6C35269F4F67006B70F2 /* Compress.hpp */,
+				A45F6C37269F4F76006B70F2 /* Decompress.cpp */,
+				A45F6C38269F4F76006B70F2 /* Decompress.hpp */,
+				A45F6C3A269F4FC2006B70F2 /* Huffman.cpp */,
+				A45F6C3B269F4FC2006B70F2 /* Huffman.hpp */,
 			);
 			path = hufCompress;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45F6C2E269F4ED9006B70F2 /* main.cpp in Sources */,
+				A45F6C3C269F4FC2006B70F2 /* Huffman.cpp in Sources */,
+				A45F6C39269F4F76006B70F2 /* Decompress.cpp in Sources */,
+				A45F6C36269F4F67006B70F2 /* Compress.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
